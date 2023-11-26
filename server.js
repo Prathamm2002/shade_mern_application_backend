@@ -17,7 +17,7 @@ mongoose.connect(DB).then((con) => {
 });
 
 // PORT Variable Declaration
-const port = process.env.port || 3000;
+const port = process.env.port || 8000;
 
 // Starting Application
 app.listen(port, () => {
